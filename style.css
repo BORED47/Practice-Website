@@ -1,0 +1,48 @@
+body{
+    background-color: salmon;
+    color: moccasin;
+}
+#monkey{
+    background-color: olive;
+    color: aliceblue;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 100px;
+    border: 10px dashed aquamarine;
+}
+img{
+    background-color: olive;
+    color: aliceblue;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 100px;
+    border: 10px dashed aquamarine;
+    width: 1500px;
+    height: 1000px;
+
+}
+.n{
+    background-color: yellowgreen;
+    color: aqua;
+}
+a[href*="frhsd.com"] {
+    color: lime;
+}
+ul>li:first-child{
+    color: fuchsia;
+}
+a:visited{
+    color: beige;
+}
+li:hover{
+    background-color: navy;
+}
+div{
+    li{
+        color: yellow;
+    }
+}
+li+li{
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    border-bottom: 5px solid orange;
+    border-top: 5px solid orange;
+}
