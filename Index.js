@@ -1,6 +1,8 @@
 function clicked(){
     document.title = document.querySelector("input").value
 }
+
+
 function loading(){
     if(localStorage.getItem('local')){
         document.querySelector("#local").innerText = localStorage.getItem('local')
@@ -20,6 +22,7 @@ function click1() {
     document.querySelector("#local").innerText = t
     localStorage.setItem('local', t)
 }
+
 
 function click2() {
     let t = JSON.parse(document.querySelector("#session").innerText) + 1

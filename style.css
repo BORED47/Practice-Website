@@ -1,7 +1,18 @@
 body{
-    background-color: salmon;
-    color: moccasin;
+    background-color: darkgrey;
+    color: firebrick;
+}/*page and text color*/
+
+h1{
+    font-family: Jokerman, fantasy;
+    font-size: 400%;
+    text-align: center;
 }
+
+#HW {
+    font-size: 200%;
+}
+
 #monkey{
     background-color: olive;
     color: aliceblue;
@@ -9,6 +20,7 @@ body{
     font-size: 100px;
     border: 10px dashed aquamarine;
 }
+
 img{
     background-color: olive;
     color: aliceblue;
@@ -16,54 +28,66 @@ img{
     font-size: 100px;
     border: 10px dashed aquamarine;
     width: 1500px;
-    height: 1000px;
+    height: 800px;
 
 }
+
 .n{
     background-color: yellowgreen;
     color: aqua;
 }
+
 a[href*="frhsd.com"] {
     color: lime;
 }
+
 ul>li:first-child{
     color: fuchsia;
 }
+
 a:visited{
     color: beige;
 }
+
 li:hover{
     background-color: navy;
 }
+
 div{
     li{
         color: yellow;
     }
 }
+
 li+li{
     border-left: 5px solid orange;
     border-right: 5px solid orange;
     border-bottom: 5px solid orange;
     border-top: 5px solid orange;
 }
+
 ol{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 #alien{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto auto;
-    gap: 12px;
+    gap: 8%;
     img{
         grid-column: span 3;
         background: none;
         grid-row: span 3;
-        height: 75%;
-        width: 75%;
+        height: 100%;
+        width: 100%;
+        border: none;
     }
     p{
+        text-align: left;
+        font-size: 300%;
         grid-column: span 2;
         grid-row: span 2;
     }
@@ -71,4 +95,4 @@ ol{
         grid-column: span 1;
         grid-row: span 1;
     }
-}
+}/*the grid of img, para, and links*/
